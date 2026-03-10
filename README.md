@@ -30,6 +30,95 @@ If this is your first time using Cowork, do the guide above first, then come bac
 5. Paste it into your AI tool.
 6. Save the result and reuse it.
 
+## Top-Level Prompts (Copy/Paste)
+Use these right now without opening any other file.
+
+### 1) CEO Coach Prompt
+```text
+Act as my CEO coach.
+
+Company context:
+- Company: [COMPANY]
+- Stage: [STAGE]
+- Primary goals this quarter: [GOALS]
+- Top constraints: [CONSTRAINTS]
+- Key metrics: [KPIS]
+- Current risks: [RISKS]
+
+Build:
+1) A daily decision protocol
+2) A weekly strategy review agenda
+3) A prioritization rubric
+4) A Stop/Start/Continue leadership framework
+5) Escalation triggers for CEO intervention
+
+Output:
+- CEO dashboard (top 5 priorities)
+- Weekly CEO agenda template
+- Decision memo template
+- 5 Friday reflection questions
+```
+
+### 2) Advisory Sub-Agents Prompt
+```text
+Create a pre-launch CEO advisory board of sub-agents:
+1) Operator
+2) Skeptic
+3) Customer Advocate
+4) Finance Partner
+5) Risk/Legal Reviewer
+
+For each agent provide:
+- Mission
+- 7 evaluation questions
+- Failure modes detected
+- Scoring rubric (1-5)
+- Ship / Fix / Stop logic
+
+Then run all agents on this launch:
+- Launch plan: [PASTE]
+- Assumptions: [PASTE]
+- Constraints: [PASTE]
+
+Return:
+1) Executive verdict (Ship/Fix/Stop)
+2) Top 5 risks
+3) Contradictions across agents
+4) Required fixes
+5) Revised launch plan
+```
+
+### 3) Thought Leader Pipeline Prompt
+```text
+Build me a thought leadership content pipeline for [INDUSTRY].
+
+Profile:
+- Expertise areas: [AREAS]
+- POV themes: [THEMES]
+- Audience: [AUDIENCE]
+- Platforms: X + LinkedIn
+- Posting target: [FREQUENCY]
+- Brand voice: [VOICE]
+
+Create:
+1) Idea capture system
+2) Topic scoring model
+3) Drafting workflow
+4) Editing quality checklist
+5) Distribution cadence
+6) Repurposing flow (one idea -> multiple assets)
+7) Weekly review loop
+
+Then generate from this source:
+- Source material: [PASTE]
+
+Output:
+- 1 X thread
+- 1 LinkedIn post
+- 1 short POV memo
+- 10 backlog content ideas
+```
+
 ## Which File Should I Use?
 - If you are **new to Cowork**: start with the getting-started guide repo first.
 - If you want to **learn and follow along**: use `workshop-attendee-guide.md`.
